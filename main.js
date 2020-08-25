@@ -73,7 +73,7 @@ let winner = determineWinner('rock', 'scissors'); // just created a variable for
 console.log(winner);
 
 const playGame = () => {
-    const userChoice = getUserChoice('rock'); // the value of getUserChoice can be changed for every game instance
+    const userChoice = getUserChoice('rock'); // input your value here! and run the code
     const computerChoice = getComputerChoice(); // the value is random
     console.log('You threw: ' + userChoice);
     console.log('The computer threw:' + computerChoice);
